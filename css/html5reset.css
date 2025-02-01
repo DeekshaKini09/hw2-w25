@@ -171,42 +171,33 @@ div {
 }
 
 .red {
-  background-color: #ff0000;
-  text-align: right;
-  margin-left: 50px;
-  border-left: 5px;
-  border-bottom: 2px;
+	background-color: #FF0000;
+	text-align: right;
+	margin-left: 50px;
+	border-width: 0 0 2px 5px; /* Top Right Bottom Left */
 }
-
-/* Blue Box */
+  
 .blue {
 	background-color: #0000FF;
 	text-align: left;
 	margin-right: 50px;
-	border-right: 5px solid white;
-	border-top: 2px solid white;
+	border-width: 2px 5px 0 0; /* Top Right Bottom Left */
 	color: #C4C4C4;
 }
-
-.blue h1, .blue h2, .blue h3, .blue p {
-	color: #C4C4C4;
-}
-
+  
 .yellow {
-  background-color: #ffff00;
-  text-align: right;
-  margin-left: 50px;
-  border-left: 5px;
-  border-bottom: 2px;
-  color: #707070;
+	background-color: #FFFF00;
+	text-align: right;
+	margin-left: 50px;
+	border-width: 0 0 2px 5px; /* Top Right Bottom Left */
+	color: #707070;
 }
-
+  
 .green {
 	background-color: #008500;
 	text-align: left;
 	margin-right: 50px;
-	border-right: 5px;
-	border-top: 2px;
+	border-width: 2px 5px 0 0; /* Top Right Bottom Left */
 }
 
 footer {
