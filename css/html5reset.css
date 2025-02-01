@@ -86,71 +86,60 @@ div {
 	min-height: 125px;
 	padding: 20px;
 	border: 3px solid white;
+	width: 90%;
+	max-width: 800px;
+	margin: 10px auto;
 }
 
-/* Introduction Class */
 .introduction {
-	border-radius: 15px; /* Curved edges */
+	border-radius: 15px;
 	margin-top: 15px;
 	line-height: 2; /* Double-spaced text */
+	padding: 20px;
 }
-
-/* Red Box */
 .red {
-	background-color: #FF0000; /* Hex for red */
+	background-color: #FF0000;
 	text-align: right;
-	margin-left: 50px;
 	border-left: 5px solid white;
 	border-bottom: 2px solid white;
 }
-
-/* Blue Box */
+  
 .blue {
-	background-color: #0000FF; /* Hex for blue */
+	background-color: #0000FF;
 	text-align: left;
-	margin-right: 50px;
 	border-right: 5px solid white;
 	border-top: 2px solid white;
-	color: #C4C4C4; /* Improved contrast */
-}
-
-.blue h1, .blue h2, .blue h3 {
 	color: #C4C4C4;
 }
-
-/* Yellow Box */
+  
 .yellow {
-	background-color: #FFFF00; /* Hex for yellow */
+	background-color: #FFFF00;
 	text-align: right;
-	margin-left: 50px;
 	border-left: 5px solid white;
 	border-bottom: 2px solid white;
-	color: #707070; /* Improved contrast */
+	color: #707070;
 }
-
-/* Green Box */
+  
 .green {
 	background-color: #008500;
 	text-align: left;
-	margin-right: 50px;
 	border-right: 5px solid white;
 	border-top: 2px solid white;
 }
+  
 
 /* Footer Styles */
 footer {
-	background: linear-gradient(90deg, 
-		#000000 0%, 
-		#0000FF 25%, 
-		#0066FF 70%, 
-		#000000 100%);
+	background: linear-gradient(90deg, #000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%);
 	border: 5px solid white;
 	padding: 15px;
+	max-width: 800px;
+	margin: 20px auto;
 }
-
-/* Footer Paragraph Styles */
+  
+  /* Footer Paragraph Fix */
 footer p {
 	font-size: 20px;
 	text-align: right;
-	padding: 15px 15px 15px 0; /* Top, Right, Bottom only */
+	padding: 15px 15px 15px 0;
 }
