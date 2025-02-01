@@ -143,83 +143,72 @@ h1 {
 
 h2 {
   font-size: 30px;
-  color: #0d0d0d; /* Dark gray */
+  color: #0d0d0d;
 }
 
-/* Paragraph Styles */
 p {
   font-size: 24px;
-  padding: 10px 0 0 10px; /* 10px top & left only */
+  padding: 10px 0 0 10px; 
 }
 
-/* Image Styles */
 img {
-  width: 250px; /* Fixed width */
-  height: auto; /* Maintain aspect ratio */
+  width: 250px; 
   border: 10px dashed white;
   display: block;
-  margin: 0 auto; /* Centers image */
+  margin: 0 auto; 
 }
 
-/* Default Div Styles */
 div {
   min-height: 125px;
   padding: 20px;
   border: 3px solid white;
 }
 
-/* Introduction Class */
 .introduction {
-  border-radius: 15px; /* Curved edges */
+  border-radius: 15px; 
   margin-top: 15px;
-  line-height: 2; /* Double-spaced text */
+  line-height: 2; 
 }
 
-/* Red Box */
 .red {
   background-color: #ff0000;
   text-align: right;
   margin-left: 50px;
-  border-left: 5px solid white;
-  border-bottom: 2px solid white;
+  border-left: 5px;
+  border-bottom: 2px;
 }
 
 /* Blue Box */
 .blue {
-  background-color: #0000ff;
-  text-align: left;
-  margin-right: 50px;
-  border-right: 5px solid white;
-  border-top: 2px solid white;
-  color: #c4c4c4;
+	background-color: #0000FF;
+	text-align: left;
+	margin-right: 50px;
+	border-right: 5px solid white;
+	border-top: 2px solid white;
+	color: #C4C4C4;
 }
 
-.blue h1,
-.blue h2,
-.blue h3 {
-  color: #c4c4c4;
+.blue h1, .blue h2, .blue h3, .blue p {
+	color: #C4C4C4;
 }
 
-/* Yellow Box */
 .yellow {
   background-color: #ffff00;
   text-align: right;
   margin-left: 50px;
-  border-left: 5px solid white;
-  border-bottom: 2px solid white;
+  border-left: 5px;
+  border-bottom: 2px;
   color: #707070;
 }
 
-/* Green Box */
 .green {
-  background-color: #008500;
-  text-align: left;
-  margin-right: 50px;
-  border-right: 5px solid white;
-  border-top: 2px solid white;
+	background-color: #008500;
+	text-align: left;
+	margin-right: 50px;
+	border-right: 5px;
+	border-top: 2px;
 }
 
-/* Footer Styles */
 footer {
   background: linear-gradient(
     90deg,
@@ -236,5 +225,5 @@ footer {
 footer p {
   font-size: 20px;
   text-align: right;
-  padding: 15px 15px 15px 0; /* Top, Right, Bottom only */
+  padding: 15px 15px 15px 0;
 }
